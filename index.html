@@ -1,6 +1,140 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<body>
-<h1>website</h1>
-</body>
+  <head>
+    <title>Webpage</title>
+    <meta charset="utf-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root {
+        color-scheme: light dark;
+
+        --bg-colour: #212529;
+        --text-colour: #eee;
+
+        --bg-colour: light-dark(#fff, #212529);
+        --text-colour: light-dark(#222, #eee);
+      }
+      .sl-main {
+        background: var(--bg-colour);
+        color: var(--text-colour);
+      }
+      .centre {
+        text-align: center;
+      }
+      .left {
+        text-align: left;
+      }
+      .right {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-secondary">
+      <nav class="navbar navbar-expand-md fixed-top sl-main">
+        <div class="container-fluid row">
+          <div class="col-md-3">
+            <h4>solidlamp.github.io</h4>
+          </div>
+          <div class="col-md-9">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link sl-main" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sl-main" href="#">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sl-main" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-md sl-main">
+        <div class="container-fluid row">
+          <div class="col-md-3">
+            <h4>solidlamp.github.io</h4>
+          </div>
+          <div class="col-md-9">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link sl-main" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sl-main" href="#">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sl-main" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="main-area" class="container pt-3 my-8 sl-main">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5 rounded border border-primary border-3 row">
+            <h3 class="centre">Quick Facts</h3>
+            <div class="col-md-1"></div>
+              <img
+                class="col-md-10 rounded border border-primary border-3"
+                src="https://avatars.githubusercontent.com/u/138074663"
+                style="width: 90%"
+                alt="me"
+              />
+            <div class="col-md-1"></div>
+            <p>My languages:</p>
+            <div class="left">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                height="30"
+                alt="Python"
+              />
+              <img width="12" />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                height="30"
+                alt="C"
+              />
+              <img width="12" />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                height="30"
+                alt="JavaScript"
+              />
+              <img width="12" />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                height="30"
+                alt="TypeScript"
+              />
+              <img width="12" />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+                height="30"
+                alt="bash logo"
+              />
+              <br />
+            </div>
+          </div>
+          <div class="col">
+            <br />
+          </div>
+          <div class="col-md-5">
+            <p>I make things.</p>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+        <br />
+      </div>
+      <div class="container pt-3 my-8"></div>
+    </div>
+  </body>
 </html>
